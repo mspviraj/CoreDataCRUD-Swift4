@@ -15,6 +15,8 @@
 		267DD9AE1F0A2EA000FB53F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267DD9AC1F0A2EA000FB53F5 /* LaunchScreen.storyboard */; };
 		267DD9B91F0A2EA000FB53F5 /* CoreDataCRUDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DD9B81F0A2EA000FB53F5 /* CoreDataCRUDTests.swift */; };
 		267DD9C41F0A2EA000FB53F5 /* CoreDataCRUDUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DD9C31F0A2EA000FB53F5 /* CoreDataCRUDUITests.swift */; };
+		267DD9D31F0A35A400FB53F5 /* Attendance+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DD9D11F0A35A400FB53F5 /* Attendance+CoreDataClass.swift */; };
+		267DD9D41F0A35A400FB53F5 /* Attendance+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 267DD9D21F0A35A400FB53F5 /* Attendance+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		267DD9BF1F0A2EA000FB53F5 /* CoreDataCRUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreDataCRUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267DD9C31F0A2EA000FB53F5 /* CoreDataCRUDUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataCRUDUITests.swift; sourceTree = "<group>"; };
 		267DD9C51F0A2EA000FB53F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		267DD9D11F0A35A400FB53F5 /* Attendance+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attendance+CoreDataClass.swift"; sourceTree = "<group>"; };
+		267DD9D21F0A35A400FB53F5 /* Attendance+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Attendance+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		267DD99F1F0A2EA000FB53F5 /* CoreDataCRUD */ = {
 			isa = PBXGroup;
 			children = (
+				267DD9D11F0A35A400FB53F5 /* Attendance+CoreDataClass.swift */,
+				267DD9D21F0A35A400FB53F5 /* Attendance+CoreDataProperties.swift */,
 				267DD9A01F0A2EA000FB53F5 /* AppDelegate.swift */,
 				267DD9A21F0A2EA000FB53F5 /* ViewController.swift */,
 				267DD9A41F0A2EA000FB53F5 /* Main.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267DD9D31F0A35A400FB53F5 /* Attendance+CoreDataClass.swift in Sources */,
 				267DD9A91F0A2EA000FB53F5 /* CoreDataCRUD.xcdatamodeld in Sources */,
+				267DD9D41F0A35A400FB53F5 /* Attendance+CoreDataProperties.swift in Sources */,
 				267DD9A31F0A2EA000FB53F5 /* ViewController.swift in Sources */,
 				267DD9A11F0A2EA000FB53F5 /* AppDelegate.swift in Sources */,
 			);
